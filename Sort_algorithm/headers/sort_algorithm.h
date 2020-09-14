@@ -8,7 +8,7 @@ int *array_init(int);
 /* it just practice with function pointer :-) */
 void arr_swap(int *, int *);
 /* i did some test, with array by 100 000 elements and wrote down time of sort completion */
-/* compiler is gcc with -g with -O0  */
+/* compiler is gcc with -g and -O0  */
 /* 38.378  */
 void bubble_sort(int *, int, void (*)(int *, int *));
 /* 24.272 */
